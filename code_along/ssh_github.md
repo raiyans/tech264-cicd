@@ -1,8 +1,18 @@
 # Github ssh access
 - [Github ssh access](#github-ssh-access)
+    - [Generate SSH Key](#generate-ssh-key)
 - [Linking GitHub to a key](#linking-github-to-a-key)
     - [--\> On your Terminal Window](#---on-your-terminal-window)
     - [--\> Make a GitHub Repo](#---make-a-github-repo)
+  
+
+### Generate SSH Key
+1. Run the following command to generate a new SSH key:
+   ```bash
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   ```
+2. When prompted for a file to save the key, press **Enter** to use the default location (`~/.ssh/id_rsa`).
+3. Optionally, enter a **passphrase** for added security.
 
 # Linking GitHub to a key
 1. Generate a new SSH key.
@@ -15,6 +25,8 @@
 6. Insert what you printed and save.
  
 ### --> On your Terminal Window
+
+
 1. `eval ssh-agent -s` the ssh agent that gives us a pid (process id). The response will look like = `agent pid 764`
 1. `ssh-add` your `private key`. This will add your identity.
 2. **Test** your connection to GitHub using `ssh -T git@github.com`.

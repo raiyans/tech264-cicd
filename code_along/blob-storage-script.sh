@@ -29,8 +29,8 @@ az storage container list \
 az storage blob upload \
     --account-name tech264raiyanstorage \
     --container-name testcontainer \
-    --name newname_oncloud.txt \
-    --file test.txt \
+    --name file_oncloud.txt \
+    --file local_machine_file.txt \
     --auth-mode login
 
 
