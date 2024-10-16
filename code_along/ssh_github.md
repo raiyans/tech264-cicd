@@ -4,6 +4,9 @@
 - [Linking GitHub to a key](#linking-github-to-a-key)
     - [--\> On your Terminal Window](#---on-your-terminal-window)
     - [--\> Make a GitHub Repo](#---make-a-github-repo)
+  - [Task: Re-create SSH setup to authenticate to GitHub](#task-re-create-ssh-setup-to-authenticate-to-github)
+    - [Delete test repo and SSH key.](#delete-test-repo-and-ssh-key)
+    - [Use a pre-existing repo, and switch it over to use SSH keys](#use-a-pre-existing-repo-and-switch-it-over-to-use-ssh-keys)
   
 
 ### Generate SSH Key
@@ -38,3 +41,23 @@
 
 
 ![diagram](/images/Screenshot_github_ssh.png)
+
+
+## Task: Re-create SSH setup to authenticate to GitHub
+ 
+### Delete test repo and SSH key.
+### Use a pre-existing repo, and switch it over to use SSH keys
+
+1. Navigate to a current active github repo on the local machine already connected with the remote repo.
+ 
+2. Run the `git remote -v` command to display the connection type of my Git repository. This command lists all configured remote repositories along with their URLs, which helps me see if my repository is connected via HTTPS or SSH. If the URL starts with `https://`, it’s using an HTTPS connection. If it starts with `git@` (e.g., git@github.com:username/repo.git), it’s using SSH.
+ 
+```bash
+git remote -v
+```
+ 
+7. Within the Github repo there is a **Code** drop down that proviides the SSH origin connection. Run the below command accompanied with the SSH connection to switch origin from HTTPS to SSH. *Note: The command must be ran in whilst within the local repo*.
+ 
+```bash
+git remote set-url origin git@github.com:raiyans/tech264-test-git.git
+```
