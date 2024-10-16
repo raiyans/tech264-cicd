@@ -1,3 +1,9 @@
+# Github ssh access
+- [Github ssh access](#github-ssh-access)
+- [Linking GitHub to a key](#linking-github-to-a-key)
+    - [--\> On your Terminal Window](#---on-your-terminal-window)
+    - [--\> Make a GitHub Repo](#---make-a-github-repo)
+
 # Linking GitHub to a key
 1. Generate a new SSH key.
 2. Print the **public** key using `cat`. This will be given to GitHub.

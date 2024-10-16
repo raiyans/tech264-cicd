@@ -1,3 +1,11 @@
+# Blob storage 
+
+- [Blob storage](#blob-storage)
+- [Downloading and logging into Azure CLI](#downloading-and-logging-into-azure-cli)
+- [Diagram of structure](#diagram-of-structure)
+- [Script](#script)
+
+
 # Downloading and logging into Azure CLI
  
 1. Insert `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash` while SSH'd into your VM. This will **download** CLI.

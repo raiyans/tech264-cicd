@@ -1,5 +1,22 @@
 # What is CI/ CD??
- 
+- [What is CI/ CD??](#what-is-ci-cd)
+- [Task: Research CI/CD and Jenkins](#task-research-cicd-and-jenkins)
+  - [What is CI? Benefits?](#what-is-ci-benefits)
+    - [Benefits](#benefits)
+  - [What is CD? Benefits?](#what-is-cd-benefits)
+    - [Benefits](#benefits-1)
+  - [Difference between CD and CDE](#difference-between-cd-and-cde)
+  - [What is Jenkins?](#what-is-jenkins)
+  - [Why use Jenkins? Benefits of using Jenkins? Disadvantages?](#why-use-jenkins-benefits-of-using-jenkins-disadvantages)
+    - [Benefits of using Jenkins:](#benefits-of-using-jenkins)
+    - [Disadvantages:](#disadvantages)
+  - [Stages of Jenkins](#stages-of-jenkins)
+  - [What alternatives are there for Jenkins](#what-alternatives-are-there-for-jenkins)
+  - [Why build a pipeline? Business value?](#why-build-a-pipeline-business-value)
+    - [Business value:](#business-value)
+  - [Create a general diagram of CICD](#create-a-general-diagram-of-cicd)
+  - [Understand SDLC workflow: plan, design, develop, deploy](#understand-sdlc-workflow-plan-design-develop-deploy)
+
 # Task: Research CI/CD and Jenkins
 ## What is CI? Benefits?
 CI stands for **Continuous Integration**. 

@@ -1,6 +1,5 @@
+# 
 az storage account create --name tech264raiyanstorage --resource-group tech264 --location uksouth --sku Standard_LRS
-
-
 
 #list output
 az storage account list --resource-group tech264
@@ -17,7 +16,6 @@ az storage container create \
     --account-name tech201ramonstorage \
     --name testcontainer \
     --auth-mode login
-
 
  
 az storage container list --account-name tech264raiyanstorage --auth-mode login
