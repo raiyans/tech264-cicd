@@ -1,4 +1,4 @@
-# 
+# creates an account
 az storage account create --name tech264raiyanstorage --resource-group tech264 --location uksouth --sku Standard_LRS
 
 #list output
