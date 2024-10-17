@@ -1,4 +1,15 @@
 # Deploying App in 2-tier architecture on AWS
+- [Deploying App in 2-tier architecture on AWS](#deploying-app-in-2-tier-architecture-on-aws)
+- [Structure](#structure)
+  - [Steps](#steps)
+    - [--\> app and OS image](#---app-and-os-image)
+    - [--\> Instance Type](#---instance-type)
+    - [--\> Key Pair Login](#---key-pair-login)
+    - [--\> If previously created...](#---if-previously-created)
+    - [--\> Network Settings](#---network-settings)
+    - [--\> Add Inbound Port Rules // Can be done after launch](#---add-inbound-port-rules--can-be-done-after-launch)
+    - [--\> Advanced details](#---advanced-details)
+    - [--\> Review](#---review)
 
 # Structure
 ![diagram](/images/2_tier_aws.png)
