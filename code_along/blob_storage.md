@@ -55,4 +55,4 @@ az storage container list \
 ![diagram](/images/Screenshot_blob_storage.png)
 
 # Script
-[script](blob-storage-script.sh/)
+[script](/scripts/blob-storage-script.sh/)

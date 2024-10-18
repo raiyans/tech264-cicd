@@ -12,7 +12,10 @@
     - [--\> Review](#---review)
 
 # Structure
+<br>
+
 ![diagram](/images/2_tier_aws.png)
+<br>
  
 1. In the search bar, type `EC2` and select it.
 2. Navigate to instances, then select **launch instances** on the right.
@@ -43,9 +46,10 @@
 2. Allow **SSH** traffic for the **Database** EC2, allow **SSH** & **HTTP** for **App** EC2.
 3. Create a new subnet. For the **Database**, make it **private**. For the **App**, make it **public**.
 4. Edit IP for each one. Where in azure it was `10.0.1.0/24`, in AWS it is `172.31.1.0/24`. So you might want to use `172.31.2.0` for your **app**, and `172.31.3.0` for your **database**.
+<br>
 
 ![diagram](/images/aws-step-3.png)
- 
+<br>
 ### --> Add Inbound Port Rules // Can be done after launch
 1. Navigate to **Security Groups** under **Network and Security**.
 2. Search for the NSG you wish to modify.
@@ -55,9 +59,11 @@
  
 ### --> Advanced details
 1. Locate user data and input the relative data for the **EC2**.
+   <br>
    ![diagram](/images/aws-step-4.png)
- 
+    <br>
 ### --> Review
 1. Review your details then launch instance.
 2. Connect by ssh
+    <br>
    ![diagram](/images/aws-step-5.png)
