@@ -25,10 +25,13 @@
 ### --> app and OS image
 
 1. **Tag** name and **resource**
+   <br>
     ![diagram](/images/aws-step-1.png)
+    <br>
 2. Select **Ubuntu Server 22.04 LTS (HVM), SSD Volume Type**.
-    ![diagram](/images/aws-step-2.png)
+   <br>
 
+    ![diagram](/images/aws-step-2.png)
 
  
 ### --> Instance Type
